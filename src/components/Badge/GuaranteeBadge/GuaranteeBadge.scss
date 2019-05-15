@@ -1,0 +1,23 @@
+.guarantee-badge {
+  padding: 3px;
+  padding-right: 10px;
+  padding-left: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  box-shadow: 4px 5px 11px -1px #00000061;
+  margin-right: 10px;
+  &.vpn {
+    background-image: url(/assets/svg/boosting/boosting_menu_win_boosting_white.svg);
+    background-size: 20px;
+    background-color: #7546C8;
+  }
+  &.safe_boost {
+    background-image: url(/assets/svg/boosting/boosting_menu_win_boosting_white.svg);
+    background-size: 20px;
+    background-color: #00AE4B;
+  }
+}

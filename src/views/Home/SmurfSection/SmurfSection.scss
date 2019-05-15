@@ -1,0 +1,171 @@
+.smurfs-section-wrapper {
+  padding: 0;
+  .img-background {
+    position: absolute;
+    img {
+      width: 100%;
+    }
+  }
+  .smurfs-section {
+    padding-top: 15%;
+    padding-left: 15%;
+    .smurf-title {
+      .main-title {
+        font-family: 'Oswald Custom', sans-serif;
+        color: white;
+        font-weight: 700;
+        font-size: 50px;
+        text-align: center;
+        &::after {
+          content: " ";
+          width: 100%;
+          height: 2px;
+          background-image: linear-gradient(red, blue);
+        }
+      }
+      .divider {
+        img {
+          width: 100%;
+        }
+      }
+      .description {
+        font-family: 'Montserrat Custom', sans-serif;
+        color: #7F8897;
+        text-align: center;
+        font-size: 14px;
+      }
+    }
+    .boards {
+      display: flex;
+      padding-right: 2%;
+      .row {
+        align-items: flex-end;
+        .board {
+          -webkit-flex: 0 0 30%;
+          flex: 0 0 30%;
+          max-width: 30%;
+          text-align: center;
+          height: 260px;
+          background: #161A25;
+          position: relative;
+          padding-top: 70px;
+          margin: 15px;
+          .board-bg-img {
+            position: absolute;
+            top: 0;
+            transform: translateY(-50%) translateX(-50%);
+            left: 50%;
+          }
+          .board-title {
+            font-family: 'Montserrat Custom', sans-serif;
+            color: white;
+            font-weight: 200;
+            font-size: 20px;
+            padding-left: 20%;
+            padding-right: 20%;
+          }
+          .board-desc {
+            color: #648098;
+            font-size: 14px;
+            padding-left: 5%;
+            padding-right: 5%;
+          }
+          &::after {
+            content: " ";
+            height: 4px;
+            width: 100%;
+            background-image: linear-gradient(90deg, #772dd2c7 70%, #e0436573);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            border-bottom-left-radius: 5px;
+            border-bottom-right-radius: 5px;
+          }
+        }
+      }
+    }
+  }
+
+  .shops-section {
+    margin-top: 100px;
+    .shop-card-featured {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 340px;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding-right: 40%;
+      padding-left: 20px;
+      padding-bottom: 40px;
+      align-items: center;
+      box-shadow: -1px 4px 10px 3px #00000061;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 20px;
+        right: 20px;
+        height: 1px;
+        background-image: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,100%,0)),color-stop(50%,hsla(0,0%,100%,.25)),to(hsla(0,0%,100%,0)));
+        background-image: -webkit-linear-gradient(left,hsla(0,0%,100%,0),hsla(0,0%,100%,.25) 50%,hsla(0,0%,100%,0));
+        background-image: -o-linear-gradient(left,hsla(0,0%,100%,0),hsla(0,0%,100%,.25) 50%,hsla(0,0%,100%,0));
+        background-image: linear-gradient(90deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.25) 50%,hsla(0,0%,100%,0));
+      }
+      .shop-text {
+        font-family: 'Oswald Custom', sans-serif;
+        color: white;
+        text-align: right;
+        font-weight: 700;
+        h4 {
+          margin-bottom: 0;
+        }
+      }
+    }
+
+    .shop-card-small {
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 165px;
+      border-radius: 5px;
+      padding-bottom: 20px;
+      padding-right: 5%;
+      padding-left: 5%;
+      box-shadow: -1px 4px 10px 3px #00000061;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 20px;
+        right: 20px;
+        height: 1px;
+        background-image: -webkit-gradient(linear,left top,right top,from(hsla(0,0%,100%,0)),color-stop(50%,hsla(0,0%,100%,.25)),to(hsla(0,0%,100%,0)));
+        background-image: -webkit-linear-gradient(left,hsla(0,0%,100%,0),hsla(0,0%,100%,.25) 50%,hsla(0,0%,100%,0));
+        background-image: -o-linear-gradient(left,hsla(0,0%,100%,0),hsla(0,0%,100%,.25) 50%,hsla(0,0%,100%,0));
+        background-image: linear-gradient(90deg,hsla(0,0%,100%,0),hsla(0,0%,100%,.25) 50%,hsla(0,0%,100%,0));
+      }
+
+
+      &:first-child {
+        margin-bottom: 10px;
+      }
+
+      h1.shop-action-title {
+        font-family: 'Oswald Custom', sans-serif;
+        font-size: 2rem;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        width: 100%;
+        letter-spacing: -2px;
+      }
+    }
+  }
+}

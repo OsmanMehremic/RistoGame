@@ -1,0 +1,154 @@
+.main-bg {
+  height: 100%;
+  width: 100%;
+  background-image: url("/assets/images/main_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+  z-index: -1;
+}
+.header {
+  padding-top: 50px;
+  .header-content {
+    .main-navbar {
+      align-items: center;
+      .logo {
+        img {
+          width: 136px;
+        }
+      }
+      nav.main-nav {
+        display: flex;
+        .lang-dropdown {
+          position: absolute;
+          display: block;
+          overflow: hidden;
+          border: none;
+          text-align: center;
+          min-width: 100px;
+          height: 40px;
+          padding-top: 4px;
+          border-radius: 25px;
+          background-color: rgba(0,0,0,.12);
+          transition: background-color .25s ease-out,color .25s ease-out;
+          transition: height .25s ease-out;
+          cursor: pointer;
+          z-index: 3;
+          &.show {
+            height: 130px;
+            padding-bottom: 10px;
+            background-color: rgba(0,0,0,.8);
+          }
+
+          &:focus {
+            outline: none;
+          }
+
+          .dropdown-toggle {
+            color: white;
+            font-size: 14px;
+            font-weight: 600;
+            padding-left: 0;
+            &:focus {
+              box-shadow: none;
+            }
+            &::after {
+              position: absolute;
+              top: 9px;
+              right: 20px;
+              content: url(/assets/svg/arrow-down.svg);
+              border: none;
+            }
+          }
+          .item {
+            display: block;
+            font-size: 14px;
+            color: white;
+            font-weight: 600;
+            text-decoration: none;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            &:hover {
+              background-color: rgba(142, 139, 139, 0.42);
+            }
+          }
+        }
+        .nav-list {
+          margin-left: 140px;
+          .nav-item {
+            .nav-link {
+              color: white;
+              font-weight: 700;
+              font-size: 14px;
+              padding-left: 10px;
+              padding-right: 10px;
+              &:hover {
+                color: #ffffff6b;
+                transition: color 0.3s ease-in-out;
+              }
+              &.current-link {
+                color: #ffffff6b;
+              }
+            }
+          }
+        }
+      }
+
+      .navbar-actions {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        div {
+          margin-left: 15px;
+        }
+        .action-button {
+          background-color: rgba(0,0,0,.12);
+          &.free-skins {
+            color: white;
+            font-size: 14px;
+            font-weight: 700;
+            padding: 10px 20px;
+            width: 120px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            &:hover {
+              background-color: rgba(0,0,0,.32);
+              transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+          }
+          &.user {
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            background-image: url('/assets/svg/user.svg');
+            background-size: 40%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            &:hover {
+              background-color: rgba(0,0,0,.32);
+              transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+          }
+          &.cart {
+            border-radius: 50%;
+            height: 60px;
+            width: 60px;
+            background-image: url('/assets/svg/cart.svg');
+            background-size: 40%;
+            background-position: center center;
+            background-repeat: no-repeat;
+            cursor: pointer;
+            transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            &:hover {
+              background-color: rgba(0,0,0,.32);
+              transition: background-color 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+          }
+        }
+      }
+    }
+  }
+}

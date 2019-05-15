@@ -1,0 +1,28 @@
+.button3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 60px;
+  // width: 140px;
+  height: 44px;
+  min-height: 44px;
+  font-size: 13px;
+  color: #fff;
+  cursor: pointer;
+  font-family: Montserrat,Arial,Helvetica,sans-serif;
+  font-weight: 700;
+  border: 1px solid hsla(0,0%,100%,.15);
+  border-radius: 5px;
+  box-shadow: 0 6px 18px 0 rgba(86,79,255,.25);
+  background: -webkit-gradient(linear,left top,left bottom,from(#7932ff),to(#564fff));
+  background: linear-gradient(180deg,#7932ff,#564fff);
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: .2s ease-in;
+  &:hover {
+    -webkit-box-shadow: 0 6px 18px 0 rgba(86,79,255,.15);
+    box-shadow: 0 6px 18px 0 rgba(86,79,255,.15);
+    -webkit-filter: brightness(125%);
+    filter: brightness(125%);
+  }
+}

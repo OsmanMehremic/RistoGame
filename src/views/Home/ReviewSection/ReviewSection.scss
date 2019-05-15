@@ -1,0 +1,132 @@
+.review-section-wrapper {
+  margin-top: 200px;
+  padding: 0;
+  .section-back {
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    transform: skewY(-1deg);
+    background: #8080804d;
+    opacity: 0.6;
+  }
+  .review-section {
+    text-align:  center;
+    padding-top: 30px;
+    .heading {
+      font-family: 'Oswald Custom';
+      font-size: 40px;
+      font-weight: 700;
+      background: -webkit-linear-gradient(-45deg, #783FA2, #783FA2 45%, #FF4C57 55% 100%, #FF4C57);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: #33333300;
+    }
+    .review-number {
+      font-family: 'Oswald Custom', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      color: gray;
+    }
+    .review-slider-wrapper {
+
+      .review-carousel {
+        .navigation-bar {
+          margin-top: 10px;
+          margin-bottom: 10px;
+          .prev-review-btn {
+            border: none;
+            background: none;
+            /* background-image: url(/assets/svg/pagination_prev_white.svg); */
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background: linear-gradient(-45deg, #783FA2 80% ,#FF4C57);
+            &:focus {
+              outline: none;
+            }
+          }
+          .button-separator {
+            margin-right: 10px;
+            margin-left: 10px;
+          }
+          .next-review-btn {
+            border: none;
+            background: none;
+            /* background-image: url(/assets/svg/pagination_prev_white.svg); */
+            height: 50px;
+            width: 50px;
+            border-radius: 25px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background: linear-gradient(-45deg, #783FA2 10% ,#FF4C57);
+            &:focus {
+              outline: none;
+            }
+          }
+        }
+       .review-slider {
+         .review-slide {
+           .slide-item {
+             .signature {
+                margin-top: 20px;
+                span.id{
+                  font-size: 16px;
+                  font-weight: 600;
+                  color: #A274ED;
+                }
+
+                span.time {
+                  font-size: 16px;
+                  color: black;
+                  font-weight: 600;
+                }
+             }
+             .description {
+               padding-top: 20px;
+               padding-bottom: 20px;
+               font-size: 40px;
+             }
+             .rank-transfer {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+               .start {
+                 width: 100px;
+                 img {
+                   max-width: 100%;
+                 }
+                 .name {
+                   font-weight: 500;
+                 }
+               }
+               .arrow {
+                 width: 20px;
+                 margin-left: 10px;
+                 margin-right: 10px;
+                 img {
+                   width: 100%;
+                 }
+               }
+               .finish {
+                 width: 100px;
+                 img {
+                   max-width: 100%;
+                 }
+                 .name {
+                   font-weight: 500;
+                 }
+               }
+             }
+           }
+         }
+       }
+      }
+    }
+    .trustpilot-score-board {
+
+    }
+  }
+}

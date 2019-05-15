@@ -1,0 +1,16 @@
+{
+  "header": {
+    "title": "Lancement de la Ligue",
+    "desc": "Le boost de ligue permet au client d'acheter des boosters de niveau et de division garantis. Nous avons conçu le boosting de ligue pour qu'il soit l'option la plus rapide, tout en offrant un service de qualité."
+  },
+  "actions": {
+    "league": "LEAGUE<br /> BOOSTING",
+    "duo": "DUO BOOSTING",
+    "win": "WIN BOOSTING",
+    "placement": "PLACEMENT MATCHES",
+    "normal": "NORMAL MATCHES",
+    "packages": "BOOSTING PACKAGES",
+    "mastery": "CHAMPION MASTERY",
+    "giftbox": "GIFT BOX"
+  }
+}

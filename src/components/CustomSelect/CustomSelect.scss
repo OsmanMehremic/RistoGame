@@ -1,0 +1,30 @@
+.select-label {
+  position: relative;
+  width: 100%;
+  &::before {
+    content: " ";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #6419E6;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  .custom-item-select {
+    font-size: 14px;
+    background: #F2F2F4;
+    font-family: 'Barlow Custom', sans-serif;
+    font-weight: 600;
+    color: #9C9AA6;
+    border: none;
+    padding: 10px;
+    height: 45px;
+    width: 100%;
+    appearance:  none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+}

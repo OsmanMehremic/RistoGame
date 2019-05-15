@@ -1,0 +1,95 @@
+.home-header {
+  .home-header-row {
+    .slogan {
+      .title {
+        color: white;
+        font-size: 54px;
+        font-weight: 700;
+        line-height: 115%;
+        margin-bottom: 30px;
+        font-family: 'Barlow Custom'
+      }
+
+      .text {
+        color: white;
+        font-size: 18px;
+        margin-bottom: 30px;
+      }
+
+      .buttons {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        button {
+          margin-right: 30px;
+        }
+      }
+    }
+    .cards {
+      display: flex;
+      .home-header-card {
+        position: relative;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-direction: column;
+        flex-direction: column;
+        -webkit-justify-content: flex-start;
+        justify-content: flex-start;
+        -webkit-align-items: center;
+        align-items: center;
+        border: 3px solid #00000029;
+        border-radius: 15px;
+        margin: 5px;
+        height: 75%;
+        width: 30%;
+        margin-right: 20px;
+        padding-top: 30px;
+        font-family: "Gilroy Custom", sans-serif;
+        font-weight: 400;
+        font-size: 0.8em;
+        .order {
+          width: 30px;
+          height: 30px;
+          background-color: white;
+          font-size: 14px;
+          font-weight: 600;
+          border: none;
+          border-radius: 15px;
+          text-align: center;
+          padding-top: 5px;
+          position: absolute;
+          left: 0;
+          top: 0;
+        }
+        .img-div {
+          height: 50%;
+          margin-bottom: 10px;
+          display: flex;
+        }
+
+        .card-title {
+          color: white;
+          font-weight: 700;
+          padding-left: 20px;
+          padding-right: 20px;
+          text-align: center;
+          line-height: 110%;
+          font-size: 18px;
+          margin-bottom: 5px;
+          white-space: pre-line;
+        }
+
+        .card-description {
+          color: white;
+          padding-left: 25px;
+          padding-right: 25px;
+          font-size: 14px;
+          text-align: center;
+          line-height: 110%;
+        }
+      }
+
+    }
+  }
+}

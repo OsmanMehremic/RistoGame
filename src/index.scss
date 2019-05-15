@@ -1,0 +1,27 @@
+@import '~bootstrap/scss/bootstrap.scss';
+
+// Custom Global Styles and Mixin Import
+@import './styles/mixin.scss';
+@import './styles/variables.scss';
+@import './styles/global.scss';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+// ************* TYPOGRAPHY ***************** //
+
+/**
+ * Variables
+ **/
+
+ .gradient-font {
+  background: -webkit-linear-gradient(-45deg, #783FA2, #783FA2 45%, #FF4C57 55% 100%, #FF4C57);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #33333300;
+}

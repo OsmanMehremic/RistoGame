@@ -1,0 +1,20 @@
+{
+  "header": {
+    "title": "LEAGUE BOOSTING",
+    "desc": "League boosting allows the customer to purchase guaranteed tier and division boosts. We designed league boosting to be the fastest option but at the same time providing high-quality service."
+
+  },
+  "actions": {
+    "league": "LEAGUE BOOSTING",
+    "duo": "DUO BOOSTING",
+    "win": "WIN BOOSTING",
+    "placement": "PLACEMENT MATCHES",
+    "normal": "NORMAL MATCHES",
+    "packages": "BOOSTING PACKAGES",
+    "mastery": "CHAMPION MASTERY",
+    "giftbox": "GIFT BOX"
+  },
+  "league": {
+
+  }
+}

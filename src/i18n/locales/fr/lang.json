@@ -1,0 +1,38 @@
+{
+  "header": {
+    "menu": {
+      "home": "Accueil",
+      "boosting": "Boosting",
+      "coaching": "encadrement",
+      "Boosters": "Boosters",
+      "demo": "Démo",
+      "more": "Plus",
+      "freeskins": "LIBRE Les peaux"
+    }
+  },
+  "footer": {
+    "copyright": "&copy;EloHeaven 2019. Tous droits réservés.",
+    "information": {
+      "title": "INFORMATION",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "faq": "FAQ"
+    },
+    "eloheaven": {
+      "title" : "ELO HEAVEN",
+      "jobs": "Emplois",
+      "contact": "Contact",
+      "referalsystem": "Système de référence"
+    },
+    "leagueoflegend": {
+      "title": "LIGUE DE LÉGENDE",
+      "eloboosting": "Elo Boosting",
+      "coaching": "encadrement",
+      "smurf_accounts": "Comptes Schtroumpf"
+    }
+  },
+  "home": {
+    "Boost your ingame account to 100%": "Augmentez votre compte ingame à 100%",
+    "More than 5 years of experience and team of 600+ professinal players": "Plus de 5 ans d'expérience et une équipe de plus de 600 joueurs professionnels"
+  }
+}

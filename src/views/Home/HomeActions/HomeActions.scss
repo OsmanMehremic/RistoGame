@@ -1,0 +1,138 @@
+.actions-wrapper {
+  margin-top: 50px;
+  .top-action-card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 36px 0px 40px 40px;
+    border-radius: 5px;
+    background-image: url(/assets/images/main_game_bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border: 1px solid rgba(145,149,214,.25);
+    z-index: 1;
+    .hero {
+      position: absolute;
+      z-index: -1;
+      right: 15%;
+      bottom: 0;
+      width: 400px;
+      img {
+        width: 100%;
+      }
+    }
+
+    .title {
+      font-family: 'Oswald Custom',Arial,Helvetica,sans-serif;
+      text-transform: uppercase;
+      text-align: left;
+      font-size: 36px;
+      color: #fff;
+      width: 100%;
+      padding: 10px 0;
+      line-height: 1.22;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-weight: 700;
+      margin-bottom: 30px;
+    }
+
+    .button-price-wrapper {
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      justify-content: space-between;
+    }
+  }
+  .actions-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    .action-card {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      margin-top: 10px;
+      padding: 36px 0px 40px 40px;
+      border-radius: 5px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: 50%;
+      border: 1px solid rgba(145,149,214,.25);
+      z-index: 1;
+      height: 180px;
+      flex: 0 0 33%;
+      max-width: 33%;
+
+      .hero {
+        position: absolute;
+        z-index: -1;
+        right: 15%;
+        bottom: 0;
+        width: 400px;
+        img {
+          width: 100%;
+        }
+      }
+
+      .title {
+        font-family: 'Oswald Custom',Arial,Helvetica,sans-serif;
+        text-transform: uppercase;
+        text-align: left;
+        font-size: 28px;
+        color: #fff;
+        width: 100%;
+        padding: 10px 0;
+        line-height: 1.22;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        font-weight: 700;
+        margin-bottom: 5px;
+      }
+
+      .button-price-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        justify-content: space-between;
+      }
+
+      &.coaching {
+        background-image: url(/assets/images/bg_gold.webp);
+        .hero {
+          right: 0;
+          width: 300px;
+        }
+        .title {
+          margin-bottom: 5px;
+          font-size: 28px;
+        }
+      }
+
+      &.smurfs {
+        background-image: url(/assets/images/bg_leveling.webp);
+        .hero {
+          right: 50px;
+          width: 315px;
+        }
+      }
+
+      &.sell-account {
+        background-image: url(/assets/images/bg_dungeons.webp);
+        .hero {
+          right: 0;
+          bottom: 0;
+          width: 290px;
+        }
+      }
+    }
+
+  }
+}

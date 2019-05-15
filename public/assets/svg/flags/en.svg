@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="15" viewBox="0 0 21 15">
+    <defs>
+        <rect id="a" width="21" height="15" rx="2"/>
+        <rect id="c" width="20" height="14" x=".5" y=".5" rx="1"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="b" fill="#fff">
+            <use xlink:href="#a"/>
+        </mask>
+        <use fill="#22438B" xlink:href="#a"/>
+        <path fill="#FFF" d="M3 1l-2.026.026L1 3l16.982 11.028 2.037-.037-.037-1.963z" mask="url(#b)"/>
+        <path fill="#C7152A" d="M2 1L1 2l18 12 1-1z" mask="url(#b)"/>
+        <path fill="#FFF" d="M18 1h2v2S8.25 10.396 3.018 14.028c-.063.044-1.998.003-1.998.003l-.155-1.903L18 1z" mask="url(#b)"/>
+        <path fill="#C7152A" d="M19.043.972L20 2 2 14l-1-1z" mask="url(#b)"/>
+        <path fill="#FFF" d="M8 1h5v4h7v5h-7v4H8v-4H1V5h7z" mask="url(#b)"/>
+        <path fill="#C7152A" d="M9 1h3v5h8v3h-8v5H9V9H1V6h8z" mask="url(#b)"/>
+        <use stroke="#2F343A" stroke-opacity=".157" xlink:href="#c"/>
+    </g>
+</svg>

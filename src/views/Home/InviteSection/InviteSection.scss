@@ -1,0 +1,29 @@
+.invite-section {
+  background: #090F2E;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 50px;
+  .main-part {
+    display: flex;
+    justify-content: space-evenly;
+    .invite-slogan {
+      font-weight: 700;
+      text-align: center;
+      color: white;
+      // margin-right: 10px;
+      font-size: 36px;
+    }
+    button.invite-button {
+      border: none;
+      background: none;
+      background-color: white;
+      border-radius: 3px;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 5px 15px;
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

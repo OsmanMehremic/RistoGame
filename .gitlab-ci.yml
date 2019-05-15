@@ -1,0 +1,24 @@
+image: node:8.12.0
+
+cache:
+  paths:
+    - node_modules/
+
+before_script:
+   - 'which ssh-agent || ( apt-get update -y && apt-get install openssh-client -y )'
+   - eval $(ssh-agent -s)
+   - echo "$CI_SSHPRIVATEKEY" | tr -d '\r' | ssh-add - > /dev/null
+   - mkdir -p ~/.ssh
+   - chmod 700 ~/.ssh
+   - ssh-keyscan 178.62.219.121 >> ~/.ssh/known_hosts
+   - chmod 644 ~/.ssh/known_hosts
+
+deploy_production:
+  only:
+    - master
+  script:
+    - npm install
+    - REACT_APP_DEPLOYTIME=`date -Iminutes` npm run build
+    - cd build
+    - ssh freelance@178.62.219.121 'rm -rf /home/freelance/build'
+    - scp -o stricthostkeychecking=no -r . freelance@178.62.219.121:/home/freelance/build

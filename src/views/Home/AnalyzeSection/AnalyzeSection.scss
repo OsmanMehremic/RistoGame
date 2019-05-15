@@ -1,0 +1,54 @@
+.analyze-section-wrapper {
+  .analyze-section {
+    .main-row {
+      align-items: center;
+      .img-div {
+        img {
+          transform: scaleX(-1) translateX(50%);
+        }
+      }
+      .analyze-data {
+        .data-heading {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          .logo {
+            width: 80px;
+          }
+          .title {
+            font-family: 'Barlow Custom', sans-serif;
+            margin-left: 5px;
+            font-size: 28px;
+            font-weight: 600;
+            background: -webkit-linear-gradient(-45deg, #783FA2, #783FA2 45%, #FF4C57 55% 100%, #FF4C57);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: #33333300;
+            line-height: 110%;
+
+          }
+        }
+        .data-numbers {
+          margin-top: 50px;
+          .data-item {
+            display: flex;
+            justify-content: flex-start;
+            align-items: baseline;
+            flex-direction: column;
+            .number {
+              font-family: 'Barlow Custom', sans-serif;
+              font-size: 60px;
+              font-weight: 600;
+              color: black;
+            }
+            .description {
+              font-family: 'Barlow Custom', sans-serif;
+              color: gray;
+              font-size: 12px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}

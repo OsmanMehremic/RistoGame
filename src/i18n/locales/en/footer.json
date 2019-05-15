@@ -1,0 +1,27 @@
+{
+  "copyright": "© EloHeaven 2019. All right reserved",
+  "information": {
+    "title": "INFORMATION",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "faq": "FAQ"
+  },
+  "eloheaven": {
+    "title" : "ELO HEAVEN",
+    "jobs": "Jobs",
+    "contact": "Contact",
+    "referalsystem": "Referal System"
+  },
+  "leagueoflegend": {
+    "title": "LEAGUE OF LEGEND",
+    "eloboosting": "Elo Boosting",
+    "coaching": "Coaching",
+    "smurf_accounts": "Smurf Accounts"
+  },
+  "lang": {
+    "en": "English",
+    "fr": "French",
+    "ru": "Russian",
+    "desc": "League of Legends is a registered trademark of Riot Games, Inc. We are in no way affiliated with, associated with or endorsed by Riot Games, Inc."
+  }
+}
